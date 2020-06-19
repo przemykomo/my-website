@@ -1,0 +1,151 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <meta http-equiv="Content-Language" content="en-gb">
+    <link href="../stylesheet.css" rel="stylesheet">
+    <link rel="icon" href="./logo.png">
+    <link href="./style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Fans Mod</title>
+</head>
+
+<body>
+    <object style="border:0; padding:0; width:100%; height: 34px;" type="text/html" data="../navbar.html"></object>
+    <hr>
+
+    <table>
+        <tr>
+            <td>
+                <img src="./logo.png" height="128">
+            </td>
+
+            <td style="padding-left:32px">
+                <h1>Fans Mod</h1>
+                <p><a href="https://www.curseforge.com/minecraft/mc-mods/fans-mod/files">Download</a></p>
+                <p>A minecraft mod adding fans.<br>
+                <table style="border-spacing: 0px;">
+                    <tr><span style="font-weight: bold;">Links:</span></tr>
+                    <tr>
+                        <td>Curseforge:</td>
+                        <td><a href="https://www.curseforge.com/minecraft/mc-mods/fans-mod">
+                                     https://www.curseforge.com/minecraft/mc-mods/fans-mod</a><br>
+                    </tr>
+
+                    <tr>
+                        <td>Discord:</td>
+                        <td><a href="https://discord.gg/Qx5ySBu">
+                                     https://discord.gg/Qx5ySBu</a>
+                    </tr>
+                </table>
+            </td>
+    </table>
+
+    <div class="modinfo">
+
+
+        <div class="tablinks">
+            <h3 class="tablink" onclick="changeTab(event, 'basic_fans')">Basic Fans</h3>
+            <h3 class="tablink" onclick="changeTab(event, 'special_fans')">Special Fans</h3>
+            <h3 class="tablink" onclick="changeTab(event, 'misc')">Miscellaneous</h3>
+        </div>
+
+        <!-- ######################
+            FANS
+        ####################### -->
+        <div class="tab" id="basic_fans">
+            <h2>Basic Fans</h2>
+
+            <table>
+                <tr>
+                    <td align="left">
+                        <img src="./textures/iron_fan.png" height="100px">
+                        <img src="./textures/gold_fan.png" height="100px">
+                        <img src="./textures/diamond_fan.png" height="100px">
+                        <img src="./textures/emerald_fan.png" height="100px">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="description">
+                        <p>Basic fans just always push entities. Better mineral makes fan faster with longer range.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- ########################
+            SPECIAL FANS
+        ######################### -->
+        <div class="tab" id="special_fans">
+            <h2>Special Fans</h2>
+
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="./textures/redstone_fan.png" height="100px">
+                    </td>
+                    <td class="description">
+                        <h3>Redstone Fan</h3>
+                        <p>Has range equal to given redstone power.</p>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="./textures/configurable_fan.png" height="100px">
+                    </td>
+                    <td class="description">
+                        <h3>Configurable Fan</h3>
+                        <p>You can change it's range by right clicking on it. Crouch + right click sets it back to zero. Max range equals 15 blocks.</p>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="./textures/sticky_fan.png" height="100px">
+                    </td>
+                    <td class="description">
+                        <h3>Sticky Fan</h3>
+                        <p>Works like gold fan, but doesn't push entities which are touching it.</p>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div class="tab" id="misc">
+            <h2>Miscellaneous</h2>
+
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="./textures/sticky_boots.png" height="100px">
+                    </td>
+                    <td class="description">
+                        <h3>Sticky Boots</h3>
+                        <p>Fans don't push you while you are standing on ground.</p>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td align="center">
+                        <img src="./textures/propeller.png" height="100px">
+                    </td>
+                    <td class="description">
+                        <h3>Propeller</h3>
+                        <p>A crafting component.</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>

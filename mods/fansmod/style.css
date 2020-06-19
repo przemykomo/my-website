@@ -1,0 +1,55 @@
+html, body {
+    background-color: #181A1B;
+    color: #8D8B83;
+}
+
+:root {
+    --size_left: 128px;
+}
+
+.tablinks {
+    border-top-color: #999999;
+    margin: 50px;
+    height: 44px;
+}
+
+.tablinks h3 {
+    border-top: solid 1px #CCC;
+    border-left: solid 1px #CCC;
+    border-bottom: solid 1px #999;
+    border-right: solid 1px #999;
+    padding: 10px;
+    margin: 0 10px 0 0;
+}
+
+.tab {
+    /* left: var(--size_left); */
+    clear: both;
+    /* margin-top: 50px; */
+    display: none;
+}
+
+.tablink {
+    float: left;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tablink.active {
+    background-color: #DDDDDD;
+}
+
+.tablink:hover {
+    background-color: #DDDDEE;
+}
+
+.modinfo img {
+    border: solid 2px #444444;
+}
+
+.description {
+    width: 100%;
+}
+
