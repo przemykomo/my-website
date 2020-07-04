@@ -7,7 +7,7 @@
     <link rel="icon" href="./logo.png">
     <link href="../style.css" rel="stylesheet">
     <script src="../script.js"></script>
-    <title>Fans Mod</title>
+    <title>Simple Planes</title>
 </head>
 
 <body>
@@ -21,15 +21,15 @@
             </td>
 
             <td style="padding-left:32px">
-                <h1>Fans Mod</h1>
-                <p><a href="https://www.curseforge.com/minecraft/mc-mods/fans-mod/files">Download</a></p>
-                <p>A minecraft mod adding fans.<br>
+                <h1>Simple Planes</h1>
+                <p><a href="https://www.curseforge.com/minecraft/mc-mods/simple-planes/files">Download</a></p>
+                <p>A minecraft mod adding planes.<br>
                 <table style="border-spacing: 0px;">
                     <tr><span style="font-weight: bold;">Links:</span></tr>
                     <tr>
                         <td>Curseforge:</td>
-                        <td><a href="https://www.curseforge.com/minecraft/mc-mods/fans-mod">
-                                     https://www.curseforge.com/minecraft/mc-mods/fans-mod</a><br>
+                        <td><a href="https://www.curseforge.com/minecraft/mc-mods/simple-planes">
+                                     https://www.curseforge.com/minecraft/mc-mods/simple-planes</a><br>
                     </tr>
 
                     <tr>
@@ -45,36 +45,35 @@
 
 
         <div class="tablinks">
-            <h3 class="tablink" onclick="changeTab(event, 'basic_fans')">Basic Fans</h3>
-            <h3 class="tablink" onclick="changeTab(event, 'special_fans')">Special Fans</h3>
-            <h3 class="tablink" onclick="changeTab(event, 'misc')">Miscellaneous</h3>
+            <h3 class="tablink" onclick="changeTab(event, 'general')">General</h3>
+            <h3 class="tablink" onclick="changeTab(event, 'special_fans')">Upgrades</h3>
         </div>
 
         <!-- ######################
-            FANS
+            GENERAL
         ####################### -->
-        <div class="tab" id="basic_fans">
-            <h2>Basic Fans</h2>
+        <div class="tab" id="general">
+            <h1 align="center">General</h1>
+            <p align="center">To add fuel just right click with coal while sitting in the plane.<br/>
+            Crimson and warped planes are immune to fire.</p>
 
-            <table>
-                <tr>
-                    <td align="left">
-                        <img src="./textures/iron_fan.png" height="100px">
-                        <img src="./textures/gold_fan.png" height="100px">
-                        <img src="./textures/diamond_fan.png" height="100px">
-                        <img src="./textures/emerald_fan.png" height="100px">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="description">
-                        <p>Basic fans just always push entities. Better mineral makes fan faster with longer range.</p>
-                    </td>
-                </tr>
-            </table>
+            <h1 align="center">Small Planes</h1>
+            <p align="center">They can hold one player.</p>
+            <img class="center" width="90%" src="./images/small_planes.png" />
+
+            <h1 align="center">Large Planes</h1>
+            <p align="center">They can hold two entities at once.</p>
+            <img class="center" width="90%" src="./images/large_planes.png" />
+
+            <h1 align="center">Recipes</h1>
+            <img class="center" src="./images/recipes/propeller.png" />
+            <img class="center" src="./images/recipes/engine.png" />
+            <img class="center" src="./images/recipes/small_planes.gif" />
+            <img class="center" src="./images/recipes/large_planes.gif" />
         </div>
 
         <!-- ########################
-            SPECIAL FANS
+            UPGRADES
         ######################### -->
         <div class="tab" id="special_fans">
             <h2>Special Fans</h2>
